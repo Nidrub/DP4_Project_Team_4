@@ -11,20 +11,17 @@
     android:background="@drawable/sky_background"
     tools:context=".main_game_page">
 
-    <ImageButton
-        android:id="@+id/personImage"
-        android:layout_width="273dp"
-        android:layout_height="374dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="@string/app_name"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+    <ImageView
+        android:id="@+id/characterImage"
+        android:layout_width="271dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/character_model"
+        android:src="@drawable/person"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.551"
-        app:srcCompat="@drawable/person" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/armorImage2"

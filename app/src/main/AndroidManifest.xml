@@ -41,7 +41,7 @@
             android:name=".Input_Subscriptions_Activity3"
             android:exported="false" />
         <activity
-            android:name=".Input_Subscriptions_Activity2"
+            android:name=".Input_Subscriptions_Activity_Duplicate"
             android:exported="false" />
         <activity
             android:name=".main_game_page"
